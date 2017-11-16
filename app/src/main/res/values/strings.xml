@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Himu Collection All in One</string>
+    <string name="backraound">backraound</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="about_us">About Us</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-9798591530643669/4846148830</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="native_ad_unit_id">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="video_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+</resources>

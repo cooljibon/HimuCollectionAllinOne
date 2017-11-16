@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backraound"
+    tools:context="gre.jibon.educaton.com.himucollectionallinone.MainActivity">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Humayun Ahmed Books"
+                android:textColor="#791F02"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but26"
+                android:text="হিমু টা কে ?" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but1"
+                android:text="১। ময়ূরাক্ষী - হুমায়ূন আহমেদ ১৯৯০" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but2"
+                android:text="২। দরজা ওপাশে -হুমায়ূন আহমেদ ১৯৯২ " />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but3"
+                android:text="৩। হিমু - হুমায়ূন আহমেদ ১৯৯৩" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but4"
+                android:text="৪।পারাপার-হুমায়ূন আহমেদ ১৯৯৩" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but5"
+                android:text="৫।এবং হিমু -হুমায়ূন আহমেদ ১৯৯৫" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but6"
+                android:text="৬। হিমুর হাতে কয়েকটি নিল পদ্ধ -হুমায়ূন আহমেদ ১৯৯৬" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but7"
+                android:text="৭। হিমুর দ্বিতীয় প্রহর -হুমায়ূন আহমেদ ১৯৯৭" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but8"
+                android:text="৮।হিমুর রূপালী রাত্রি -হুমায়ূন আহমেদ ১৯৯৮" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but9"
+                android:text="৯।একজন হিমু কয়েকটি ঝিন ঝিন পোকা -হুমায়ূন আহমেদ ১৯৯৯ " />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but10"
+                android:text="১০। তোমাদের এই নগরে -হুমায়ূন আহমেদ ২০০০" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but11"
+                android:text="১১।চলে যায় বসন্তের দিন -হুমায়ূন আহমেদ ২০০২" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but12"
+                android:text="১২।সে আসে দিড়ে -হুমায়ূন আহমেদ ২০০৩" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but13"
+                android:text="১৩।হিমু মামা -হুমায়ূন আহমেদ ২০০৪" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but14"
+                android:text="১৪।আংগুল কাটা জাগল -হুমায়ূন আহমেদ ২০০৫" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but15"
+                android:text="১৫।হলুদ হিমু কাল রেব -হুমায়ূন আহমেদ ২০০৬" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but16"
+                android:text="১৬। আজ হিমুর বিয়ে-হুমায়ূন আহমেদ২০০৭" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but17"
+                android:text="১৭।হিমু রিমান্ডে-হুমায়ূন আহমেদ ২০০৮" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but18"
+                android:text="১৮।হিমু একান্ত সাক্ষাৎকার-হুমায়ূন আহমেদ ২০০৮" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but19"
+                android:text="১৯।হিমু মাদায়েতপুর-হুমায়ূন আহমেদ ২০০৯" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but20"
+                android:text="২০।হিমুর বাবার কথামালা-হুমায়ূন আহমেদ ২০০৯" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but21"
+                android:text="২১।হিমুর নীল ঝুছনা-হুমায়ূন আহমেদ ২০১০" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but22"
+                android:text="২২।হিমুর আছে জ্বল-হুমায়ূন আহমেদ ২০১১" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but23"
+                android:text="২৩।হিমু এবং একটি রাশিয়ান পরি-হুমায়ূন আহমেদ ২০১১" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but24"
+                android:text="২৪।হিমু এবং হার্ভার্ড Ph’D বল্টু ভাই-হুমায়ূন আহমেদ ২০১১" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jibonbut"
+                android:onClick="but25"
+                android:text="Button" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="56dp"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>
